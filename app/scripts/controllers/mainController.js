@@ -7,7 +7,6 @@ angular.module('ethExplorer')
 	if (maxBlocks > blockNum) {
 	    maxBlocks = blockNum + 1;
 	}
-
 	// get latest 50 blocks
 	$scope.blocks = [];
 	for (var i = 0; i < maxBlocks; ++i) {
