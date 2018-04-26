@@ -62,13 +62,14 @@ body {
   color: #47494E;
   margin-bottom: 8px; }
 
+
 p {
   -webkit-margin-after: 0px;
   -webkit-margin-before: 0px;
-  font-size: 15px;
+  font-size: 0.9em;
   color: #7F828B;
-  line-height: 21px;
-  margin-bottom: 4px; }
+  line-height: 15px;
+  margin-bottom: 0px; }
 
 .btn {
   text-decoration: none;
@@ -324,4 +325,10 @@ canvas{ display: block; vertical-align: bottom; }
   height: 100%;
   background-repeat: no-repeat;
   background-color:#F7F8FB;
+}
+
+#block-details h1
+{
+  font-size: 2em;
+  margin-top:0px;
 }
