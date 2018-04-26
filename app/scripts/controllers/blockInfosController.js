@@ -2,6 +2,7 @@ angular.module('ethExplorer')
     .controller('blockInfosCtrl', function ($rootScope, $scope, $location, $routeParams,$q) {
 
 	var web3 = $rootScope.web3;
+        abortTimer();
 
         $scope.init = function()
         {

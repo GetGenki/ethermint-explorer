@@ -2,6 +2,7 @@ angular.module('ethExplorer')
     .controller('addressInfoCtrl', function ($rootScope, $scope, $location, $routeParams, $q) {
 
       var web3 = $rootScope.web3;
+        abortTimer();
 	
       $scope.init=function(){
 
@@ -9,6 +10,7 @@ angular.module('ethExplorer')
 
         if($scope.addressId!==undefined) {
           getAddressInfos().then(function(result){
+              console.log(result);
             $scope.balance = result.balance;
             $scope.balanceInEther = result.balanceInEther;
           });
