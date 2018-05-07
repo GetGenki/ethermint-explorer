@@ -332,3 +332,8 @@ canvas{ display: block; vertical-align: bottom; }
   font-size: 2em;
   margin-top:0px;
 }
+
+#content
+{
+  margin-top:40px;
+}
